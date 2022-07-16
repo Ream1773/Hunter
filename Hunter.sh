@@ -15,7 +15,7 @@ NC='\033[0m'
 IPS=db1.txt
 
 echo -e "${RED}[+]${NC} Hunter has started analyzing: \n"
-#Function to scan exported objects and to san their hashes via VirusTotal:
+#Function to scan exported objects and to scan their hashes via VirusTotal:
 objects()
 {
 	#Creating a file for checked hashes for efficency:
